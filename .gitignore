@@ -1,0 +1,4 @@
+lib/*
+tmp/*
+bin/*
+*.wav
