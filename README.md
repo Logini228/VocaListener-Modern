@@ -14,5 +14,7 @@ Provide an audio clip of your singing and the exact lyrics text. The tool perfor
 - September 2025: Figured out the direction.
 - December 30 2025: First prototype for SynthV working.
 
+## License
+MIT for free modyfying and distribution
 
 *Not a port of original VocaListener (Nagoya IT, ~2007), a fresh Python implementation.*
