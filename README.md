@@ -15,18 +15,18 @@ Provide an audio clip of your singing and the exact lyrics text. The tool perfor
 - December 30 2025: First prototype for SynthV working.
 
 ## Installation
-- Download and unpack this repo
-- Install Conda for Python. (Miniconda will do fine)
-- Before next command, if you have Nvidia GPU you should remove the cpu part from the line 
+1. Download and unpack this repo
+2. Install Conda for Python. (Miniconda will do fine)
+2.1 Before next command, if you have Nvidia GPU you should remove the cpu part from the line 
 `  - conda-forge::kalpy=*=cpu*` from `environment.yml` (I don't have any idea about AMD GPUs. I only know MFA uses CUDA by default)
-- Create conda enviroment
+3. Create conda enviroment
 `conda env create -f environment.yml`
-- Now, before you launch any code make sure you are in the enviroment. You can enter it by running
+4. Now, before you launch any code make sure you are in the enviroment. You can enter it by running
 `conda activate lib/` in terminal
-- Next, you will need to install mfa language packets (russian for example)
+4.1 Next, you will need to install mfa language packets (russian for example)
 `mfa model download acoustic russian_mfa`
 `mfa model download dictionary russian_mfa`
-- Now you can run `. run.sh` to open the GUI and work there
+5. Now you can run `. run.sh` to open the GUI and work there
 
 
 ## License
