@@ -16,7 +16,7 @@ Provide an audio clip of your singing and the exact lyrics text. The tool perfor
 
 It looks like you're working on installing the MFA (Montreal Forced Aligner) and setting up the environment! Here’s a concise summary of the installation steps you provided, along with a few additional tips:
 
-## Installation Steps for MFA
+## Installation Steps
 
 1. **Download and unpack** the repository.
 2. **Install Conda** for Python (Miniconda is recommended).
