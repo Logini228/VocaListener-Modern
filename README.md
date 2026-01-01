@@ -14,20 +14,34 @@ Provide an audio clip of your singing and the exact lyrics text. The tool perfor
 - September 2025: Figured out the direction.
 - December 30 2025: First prototype for SynthV working.
 
-## Installation
-- Download and unpack this repo
-- Install Conda for Python. (Miniconda will do fine)
-- Before next command, if you have Nvidia GPU you should remove the cpu part from the line 
-`  - conda-forge::kalpy=*=cpu*` from `environment.yml` (I don't have any idea about AMD GPUs. I only know MFA uses CUDA by default)
-- Create conda enviroment
-`conda env create -f environment.yml`
-- Now, before you launch any code make sure you are in the enviroment. You can enter it by running
-`conda activate lib/` in terminal
-- Next, you will need to install mfa language packets (russian for example)
-`mfa model download acoustic russian_mfa`
-`mfa model download dictionary russian_mfa`
-- Now you can run `. run.sh` to open the GUI and work there
+It looks like you're working on installing the MFA (Montreal Forced Aligner) and setting up the environment! Here’s a concise summary of the installation steps you provided, along with a few additional tips:
 
+## Installation Steps
+
+1. **Download and unpack** the repository.
+2. **Install Conda** for Python (Miniconda is recommended).
+   - **Note**: If you have an **Nvidia GPU**, remove the `cpu` part from the line:
+     ```
+     - conda-forge::kalpy=*=cpu*
+     ```
+     in the `environment.yml` file.
+3. **Create the Conda environment**:
+   ```
+   conda env create -f environment.yml
+   ```
+4. **Activate the environment** before running any code:
+   ```
+   conda activate lib/
+   ```
+5. **Install MFA language packets** (for example, Russian):
+   ```
+   mfa model download acoustic russian_mfa
+   mfa model download dictionary russian_mfa
+   ```
+6. **Run the GUI**:
+   ```
+   . run.sh
+   ```
 
 ## License
 MIT for free modyfying and distribution
