@@ -38,6 +38,7 @@ It looks like you're working on installing the MFA (Montreal Forced Aligner) and
    mfa model download acoustic russian_mfa
    mfa model download dictionary russian_mfa
    ```
+   You can find the full languages list in this [repo](https://github.com/MontrealCorpusTools/mfa-models/tree/main/dictionary)
 6. **Run the GUI**:
    ```
    . run.sh
