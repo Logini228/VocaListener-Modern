@@ -6,27 +6,27 @@ i | i | Japanese
 ɫ | l | English
 ə | ae | English
 sʲ | s\ | Mandarin
-t̪ | t | Mandarin
-t | t | Mandarin
+t̪ | t | Spanish
+t | t | Spanish
 u | u | Mandarin
-ʐ | j | Japanese
+ʐ | zh | English
 ɛ | e | Spanish
 j | ll | Spanish
 a | a | Japanese
 k | k | Japanese
 ɐ | a | Mandarin
-ɡ | g | Spanish
+ɡ | g | English
 d̪ | d | Japanese
 d | d | Japanese
 f | f | Japanese
 r | rr | Spanish
 ɲ | J | Spanish
-t̪s̪ | tsh | Mandarin
+t̪s̪ | t s | English
 ɨ | i\ | Mandarin
 z̪ | z | Japanese
 ɟ | k | Mandarin
 m | m | Japanese
-ɪ | y | Spanish
+ɪ | ie | Mandarin
 o | o | Japanese
 p | p | Japanese
 s̪ | s | Japanese
@@ -35,5 +35,7 @@ tʲ | ch | Japanese
 e | ll e | Spanish
 n̪ | n | Japanese
 n | n | Japanese
-zʲ | z i | Japanese
+zʲ | z ih \ | English
 ʂ | sh | Japanese
+  | sil | Japanese
+dʲ | d \ | Japanese

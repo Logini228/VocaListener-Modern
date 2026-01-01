@@ -22,12 +22,11 @@ Provide an audio clip of your singing and the exact lyrics text. The tool perfor
 - Create conda enviroment
 `conda env create -f environment.yml`
 - Now, before you launch any code make sure you are in the enviroment. You can enter it by running
-`conda activate lib/` or `. run.sh` in a bash terminal
+`conda activate lib/` in terminal
 - Next, you will need to install mfa language packets (russian for example)
 `mfa model download acoustic russian_mfa`
 `mfa model download dictionary russian_mfa`
-- Now you can run `python src/main.py` to see all flags, for example you can run:
-`python src/main.py --input_dir tests/testinput --output_svp svp.svp --dict_file res/russian/synthv.txt --language russian`
+- Now you can run `. run.sh` to open the GUI and work there
 
 
 ## License

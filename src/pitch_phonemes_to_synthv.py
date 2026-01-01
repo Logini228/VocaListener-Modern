@@ -62,12 +62,12 @@ def smooth_pitch_data(raw_pitch_data):
         is_valid = True
 
         # PYIN is good, but we check boundaries
-        if current_hz < MIN_FREQ_THRESHOLD:
+        if current_hz < MIN_FREQ_THRESHOLD and current_hz != 0:
             is_valid = False
-            print(f"Pitch too low at {ms}ms: {current_hz}Hz (threshold: {MIN_FREQ_THRESHOLD}Hz)")
-        elif current_hz > MAX_FREQ_THRESHOLD:
+            #print(f"Pitch too low at {ms}ms: {current_hz}Hz (threshold: {MIN_FREQ_THRESHOLD}Hz)")
+        elif current_hz > MAX_FREQ_THRESHOLD and current_hz != 0:
             is_valid = False
-            print(f"Pitch too high at {ms}ms: {current_hz}Hz (threshold: {MAX_FREQ_THRESHOLD}Hz)")
+            #print(f"Pitch too high at {ms}ms: {current_hz}Hz (threshold: {MAX_FREQ_THRESHOLD}Hz)")
 
         if is_valid:
             last_valid_hz = current_hz
@@ -75,7 +75,7 @@ def smooth_pitch_data(raw_pitch_data):
         else:
             # If garbage, hold the last known good pitch
             smoothed_data.append((ms, last_valid_hz))
-            print(f"Fixed invalid pitch at {ms}ms: used last valid pitch {last_valid_hz}Hz")
+            #print(f"Fixed invalid pitch at {ms}ms: used last valid pitch {last_valid_hz}Hz")
 
     return smoothed_data
 
