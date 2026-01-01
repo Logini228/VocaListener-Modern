@@ -1,6 +1,2 @@
 #!/bin/bash
-
-
-conda activate lib/
-
-python src/vocalistener_gui.py
+./lib/bin/python src/vocalistener_gui.py
