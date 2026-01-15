@@ -14,7 +14,6 @@ Provide an audio clip of your singing and the exact lyrics text. The tool perfor
 - September 2025: Figured out the direction.
 - December 30 2025: First prototype for SynthV working.
 
-It looks like you're working on installing the MFA (Montreal Forced Aligner) and setting up the environment! Here’s a concise summary of the installation steps you provided, along with a few additional tips:
 
 ## Installation Steps
 
