@@ -9,10 +9,10 @@ Provide an audio clip of your singing and the exact lyrics text. The tool perfor
 - **Language Flexibility**: Supports any MFA language (Russian, German, etc.), even if not native to SynthV; bypassing official voicebank limits.
 - **Output**: Ready-to-edit save files for seamless workflow continuation.
 
-## Roadmap
+## History
 - July 2025: Started development, failed miserably with my initial approach.
 - September 2025: Figured out the direction.
-- December 30 2025: First prototype for SynthV working.
+- December 2025: First prototype for SynthV working.
 
 
 ## Installation Steps
